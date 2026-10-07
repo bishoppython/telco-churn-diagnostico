@@ -1,0 +1,494 @@
+{
+  "customers": 7043,
+  "scored_customers": 7043,
+  "churners": 1869,
+  "churn_rate_pct": 26.5,
+  "total_mrr": 456116.6,
+  "lost_mrr": 139130.85,
+  "lost_mrr_pct": 30.5,
+  "blank_total_charges_fixed": 11,
+  "segments": [
+    {
+      "dim": "Contrato",
+      "seg": "Month-to-month",
+      "customers": 3875,
+      "churners": 1655.0,
+      "churn_rate_pct": 42.7,
+      "lost_mrr": 120847.1,
+      "ci_low": 41.2,
+      "ci_high": 44.3
+    },
+    {
+      "dim": "Contrato",
+      "seg": "One year",
+      "customers": 1473,
+      "churners": 166.0,
+      "churn_rate_pct": 11.3,
+      "lost_mrr": 14118.45,
+      "ci_low": 9.8,
+      "ci_high": 13.0
+    },
+    {
+      "dim": "Contrato",
+      "seg": "Two year",
+      "customers": 1695,
+      "churners": 48.0,
+      "churn_rate_pct": 2.8,
+      "lost_mrr": 4165.3,
+      "ci_low": 2.1,
+      "ci_high": 3.7
+    },
+    {
+      "dim": "Fatura digital",
+      "seg": "Sim",
+      "customers": 4171,
+      "churners": 1400.0,
+      "churn_rate_pct": 33.6,
+      "lost_mrr": 109510.0,
+      "ci_low": 32.1,
+      "ci_high": 35.0
+    },
+    {
+      "dim": "Fatura digital",
+      "seg": "Não",
+      "customers": 2872,
+      "churners": 469.0,
+      "churn_rate_pct": 16.3,
+      "lost_mrr": 29620.85,
+      "ci_low": 15.0,
+      "ci_high": 17.7
+    },
+    {
+      "dim": "Idoso",
+      "seg": "Sim",
+      "customers": 1142,
+      "churners": 476.0,
+      "churn_rate_pct": 41.7,
+      "lost_mrr": 38419.6,
+      "ci_low": 38.9,
+      "ci_high": 44.6
+    },
+    {
+      "dim": "Idoso",
+      "seg": "Não",
+      "customers": 5901,
+      "churners": 1393.0,
+      "churn_rate_pct": 23.6,
+      "lost_mrr": 100711.25,
+      "ci_low": 22.5,
+      "ci_high": 24.7
+    },
+    {
+      "dim": "Internet",
+      "seg": "Fiber optic",
+      "customers": 3096,
+      "churners": 1297.0,
+      "churn_rate_pct": 41.9,
+      "lost_mrr": 114300.05,
+      "ci_low": 40.2,
+      "ci_high": 43.6
+    },
+    {
+      "dim": "Internet",
+      "seg": "DSL",
+      "customers": 2421,
+      "churners": 459.0,
+      "churn_rate_pct": 19.0,
+      "lost_mrr": 22529.2,
+      "ci_low": 17.4,
+      "ci_high": 20.6
+    },
+    {
+      "dim": "Internet",
+      "seg": "No",
+      "customers": 1526,
+      "churners": 113.0,
+      "churn_rate_pct": 7.4,
+      "lost_mrr": 2301.6,
+      "ci_low": 6.2,
+      "ci_high": 8.8
+    },
+    {
+      "dim": "Pagamento",
+      "seg": "Electronic check",
+      "customers": 2365,
+      "churners": 1071.0,
+      "churn_rate_pct": 45.3,
+      "lost_mrr": 84288.75,
+      "ci_low": 43.3,
+      "ci_high": 47.3
+    },
+    {
+      "dim": "Pagamento",
+      "seg": "Mailed check",
+      "customers": 1612,
+      "churners": 308.0,
+      "churn_rate_pct": 19.1,
+      "lost_mrr": 16803.6,
+      "ci_low": 17.3,
+      "ci_high": 21.1
+    },
+    {
+      "dim": "Pagamento",
+      "seg": "Bank transfer (automatic)",
+      "customers": 1544,
+      "churners": 258.0,
+      "churn_rate_pct": 16.7,
+      "lost_mrr": 20091.9,
+      "ci_low": 14.9,
+      "ci_high": 18.7
+    },
+    {
+      "dim": "Pagamento",
+      "seg": "Credit card (automatic)",
+      "customers": 1522,
+      "churners": 232.0,
+      "churn_rate_pct": 15.2,
+      "lost_mrr": 17946.6,
+      "ci_low": 13.5,
+      "ci_high": 17.1
+    },
+    {
+      "dim": "Serviços de proteção (com internet)",
+      "seg": "0",
+      "customers": 1267,
+      "churners": 718.0,
+      "churn_rate_pct": 56.7,
+      "lost_mrr": 50806.05,
+      "ci_low": 53.9,
+      "ci_high": 59.4
+    },
+    {
+      "dim": "Serviços de proteção (com internet)",
+      "seg": "1",
+      "customers": 1467,
+      "churners": 570.0,
+      "churn_rate_pct": 38.9,
+      "lost_mrr": 44465.15,
+      "ci_low": 36.4,
+      "ci_high": 41.4
+    },
+    {
+      "dim": "Serviços de proteção (com internet)",
+      "seg": "2",
+      "customers": 1372,
+      "churners": 326.0,
+      "churn_rate_pct": 23.8,
+      "lost_mrr": 28377.7,
+      "ci_low": 21.6,
+      "ci_high": 26.1
+    },
+    {
+      "dim": "Serviços de proteção (com internet)",
+      "seg": "3",
+      "customers": 941,
+      "churners": 117.0,
+      "churn_rate_pct": 12.4,
+      "lost_mrr": 10723.6,
+      "ci_low": 10.5,
+      "ci_high": 14.7
+    },
+    {
+      "dim": "Serviços de proteção (com internet)",
+      "seg": "4",
+      "customers": 470,
+      "churners": 25.0,
+      "churn_rate_pct": 5.3,
+      "lost_mrr": 2456.75,
+      "ci_low": 3.6,
+      "ci_high": 7.7
+    },
+    {
+      "dim": "Tempo de casa",
+      "seg": "0-6 meses",
+      "customers": 1481,
+      "churners": 784.0,
+      "churn_rate_pct": 52.9,
+      "lost_mrr": 49896.1,
+      "ci_low": 50.4,
+      "ci_high": 55.5
+    },
+    {
+      "dim": "Tempo de casa",
+      "seg": "7-12 meses",
+      "customers": 705,
+      "churners": 253.0,
+      "churn_rate_pct": 35.9,
+      "lost_mrr": 19058.15,
+      "ci_low": 32.4,
+      "ci_high": 39.5
+    },
+    {
+      "dim": "Tempo de casa",
+      "seg": "13-24 meses",
+      "customers": 1024,
+      "churners": 294.0,
+      "churn_rate_pct": 28.7,
+      "lost_mrr": 23081.65,
+      "ci_low": 26.0,
+      "ci_high": 31.6
+    },
+    {
+      "dim": "Tempo de casa",
+      "seg": "25-48 meses",
+      "customers": 1594,
+      "churners": 325.0,
+      "churn_rate_pct": 20.4,
+      "lost_mrr": 27462.5,
+      "ci_low": 18.5,
+      "ci_high": 22.4
+    },
+    {
+      "dim": "Tempo de casa",
+      "seg": "49+ meses",
+      "customers": 2239,
+      "churners": 213.0,
+      "churn_rate_pct": 9.5,
+      "lost_mrr": 19632.45,
+      "ci_low": 8.4,
+      "ci_high": 10.8
+    }
+  ],
+  "association": [
+    [
+      "Tipo de contrato",
+      0.41
+    ],
+    [
+      "Serviços de proteção (com internet)",
+      0.369
+    ],
+    [
+      "Tempo de casa",
+      0.363
+    ],
+    [
+      "Serviço de internet",
+      0.322
+    ],
+    [
+      "Forma de pagamento",
+      0.303
+    ],
+    [
+      "Valor mensal (quintis)",
+      0.214
+    ],
+    [
+      "Fatura digital",
+      0.192
+    ],
+    [
+      "Tem dependentes",
+      0.164
+    ],
+    [
+      "Idoso",
+      0.151
+    ],
+    [
+      "Tem parceiro(a)",
+      0.15
+    ],
+    [
+      "Serviços de streaming",
+      0.087
+    ],
+    [
+      "Telefone",
+      0.012
+    ],
+    [
+      "Gênero",
+      0.009
+    ]
+  ],
+  "model": {
+    "algorithm": "Regressão logística (one-hot + padronização)",
+    "test_size": 1761,
+    "roc_auc_test": 0.844,
+    "pr_auc_test": 0.625,
+    "base_rate_test": 0.265,
+    "top20_recall": 0.493,
+    "top20_precision": 0.652,
+    "top10_recall": 0.272,
+    "top10_precision": 0.718,
+    "rule_month_to_month": {
+      "share_flagged": 0.55,
+      "recall": 0.887,
+      "precision": 0.428
+    },
+    "oof_roc_auc": 0.843
+  },
+  "deciles": [
+    {
+      "risk_decile": 1,
+      "customers": 705,
+      "churn_rate": 74.8,
+      "avg_score": 73.5,
+      "lost_mrr": 44528.399999999994
+    },
+    {
+      "risk_decile": 2,
+      "customers": 704,
+      "churn_rate": 60.2,
+      "avg_score": 59.4,
+      "lost_mrr": 33811.25
+    },
+    {
+      "risk_decile": 3,
+      "customers": 704,
+      "churn_rate": 40.6,
+      "avg_score": 45.3,
+      "lost_mrr": 19913.399999999998
+    },
+    {
+      "risk_decile": 4,
+      "customers": 704,
+      "churn_rate": 32.5,
+      "avg_score": 32.5,
+      "lost_mrr": 15167.75
+    },
+    {
+      "risk_decile": 5,
+      "customers": 705,
+      "churn_rate": 22.1,
+      "avg_score": 22.4,
+      "lost_mrr": 9672.55
+    },
+    {
+      "risk_decile": 6,
+      "customers": 704,
+      "churn_rate": 17.6,
+      "avg_score": 15.1,
+      "lost_mrr": 7220.15
+    },
+    {
+      "risk_decile": 7,
+      "customers": 704,
+      "churn_rate": 9.4,
+      "avg_score": 9.0,
+      "lost_mrr": 4806.6
+    },
+    {
+      "risk_decile": 8,
+      "customers": 704,
+      "churn_rate": 4.5,
+      "avg_score": 4.9,
+      "lost_mrr": 2544.3
+    },
+    {
+      "risk_decile": 9,
+      "customers": 704,
+      "churn_rate": 2.4,
+      "avg_score": 2.4,
+      "lost_mrr": 1053.15
+    },
+    {
+      "risk_decile": 10,
+      "customers": 705,
+      "churn_rate": 1.1,
+      "avg_score": 0.9,
+      "lost_mrr": 413.3
+    }
+  ],
+  "top20": {
+    "customers": 1409,
+    "churners": 951,
+    "churn_capture": 0.509,
+    "lost_mrr": 78339.65,
+    "lost_mrr_share": 0.563
+  },
+  "odds_ratios": [
+    {
+      "feature": "cat__contract_Two year",
+      "coef": -1.341,
+      "odds_ratio": 0.262
+    },
+    {
+      "feature": "num__tenure_months",
+      "coef": -0.832,
+      "odds_ratio": 0.435
+    },
+    {
+      "feature": "cat__internet_service_No",
+      "coef": -0.672,
+      "odds_ratio": 0.511
+    },
+    {
+      "feature": "cat__contract_One year",
+      "coef": -0.659,
+      "odds_ratio": 0.517
+    },
+    {
+      "feature": "num__protection_addons",
+      "coef": -0.273,
+      "odds_ratio": 0.761
+    },
+    {
+      "feature": "num__has_phone",
+      "coef": -0.173,
+      "odds_ratio": 0.841
+    },
+    {
+      "feature": "cat__payment_method_Credit card (automatic)",
+      "coef": -0.089,
+      "odds_ratio": 0.915
+    },
+    {
+      "feature": "num__has_dependents",
+      "coef": -0.079,
+      "odds_ratio": 0.924
+    },
+    {
+      "feature": "cat__payment_method_Mailed check",
+      "coef": -0.012,
+      "odds_ratio": 0.989
+    },
+    {
+      "feature": "num__has_partner",
+      "coef": -0.0,
+      "odds_ratio": 1.0
+    },
+    {
+      "feature": "cat__multiple_lines_No phone service",
+      "coef": 0.0,
+      "odds_ratio": 1.0
+    },
+    {
+      "feature": "num__is_senior",
+      "coef": 0.086,
+      "odds_ratio": 1.09
+    },
+    {
+      "feature": "num__monthly_charges",
+      "coef": 0.102,
+      "odds_ratio": 1.107
+    },
+    {
+      "feature": "num__paperless_billing",
+      "coef": 0.17,
+      "odds_ratio": 1.185
+    },
+    {
+      "feature": "num__streaming_addons",
+      "coef": 0.219,
+      "odds_ratio": 1.245
+    },
+    {
+      "feature": "cat__multiple_lines_Yes",
+      "coef": 0.289,
+      "odds_ratio": 1.335
+    },
+    {
+      "feature": "cat__payment_method_Electronic check",
+      "coef": 0.325,
+      "odds_ratio": 1.384
+    },
+    {
+      "feature": "cat__internet_service_Fiber optic",
+      "coef": 0.861,
+      "odds_ratio": 2.365
+    }
+  ]
+}
