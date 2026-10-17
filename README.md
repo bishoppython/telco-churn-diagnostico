@@ -4,6 +4,8 @@
 
 **[Ver o dashboard interativo](https://bishoppython.github.io/telco-churn-diagnostico/)**
 
+[![Dashboard de churn](docs/img/dashboard.png)](https://bishoppython.github.io/telco-churn-diagnostico/)
+
 ## 💡 Resumo do projeto
 
 Uma operadora de telecom perde **26,5% dos clientes** e, com eles, **30,5% da receita mensal**. Diagnostiquei o perfil de quem cancela e construí um score de risco que coloca **51% dos cancelamentos nos 20% de clientes com maior risco**, com AUC de 0,84. Assim, a equipe de retenção sabe quem procurar primeiro.
@@ -33,10 +35,7 @@ A operadora vê a base encolher, mas não sabe onde agir. A equipe de retenção
 
 ## 🛠️ Metodologia e ferramentas
 
-```
-download + checksum → staging (SQL) → fct_customer → marts por segmento → diagnóstico → modelo de risco → dashboard
-      Python             DuckDB          DuckDB            DuckDB            scipy        scikit-learn      Plotly
-```
+![Pipeline de dados](docs/img/pipeline.svg)
 
 1. **SQL (DuckDB):** staging com tipagem e correções, uma tabela fato no grão de cliente e um mart com taxa de churn e receita perdida por segmento.
 2. **Análise diagnóstica:** taxa de churn por segmento com **intervalo de confiança de 95% (Wilson)**, para não tirar conclusões de grupos pequenos, e ranking de fatores pelo **V de Cramér**.
@@ -57,6 +56,8 @@ Escolhi a regressão logística de propósito: ela é fácil de explicar para a 
 | 1 ano | 1.473 | 11,3% |
 | 2 anos | 1.695 | 2,8% |
 
+![Churn por tipo de contrato com intervalo de confiança](docs/img/contrato.png)
+
 O plano mensal responde por **86,9% da receita mensal perdida**. No modelo, um contrato de 2 anos reduz a chance de cancelar a cerca de um quarto da chance no plano mensal (razão de chances de 0,26).
 
 ### 2. Os primeiros 6 meses são críticos
@@ -75,6 +76,10 @@ O plano mensal responde por **86,9% da receita mensal perdida**. No modelo, um c
 | Idoso | Sim: **41,7%** | Não: 23,6% |
 
 Gênero e ter telefone praticamente não se associam ao churn (V de Cramér abaixo de 0,02).
+
+![Razões de chance do modelo](docs/img/razao_de_chances.png)
+
+*Razões de chance da regressão logística, controlando todos os fatores ao mesmo tempo. Nas variáveis numéricas (+1 DP), o efeito é o de um desvio padrão a mais.*
 
 ### 4. O score de risco prioriza bem
 
